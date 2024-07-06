@@ -37,13 +37,24 @@ body {
 
 .title {
     background-color: darkgreen;
-    width: 30%;
+    width: 40%;
 }
+
+.titleback {
+    background-color: rgb(0, 0, 0, .3);
+    color: white;
+    display: flex;
+}
+
 .formbody {
     background-color: white;
 }
 
 .content {
     background-color: lightgray;
-    width: 70%;
+    width: 60%;
+}
+
+.headertext {
+    padding: 0px 100px 40px 40px;
 }
