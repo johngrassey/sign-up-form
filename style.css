@@ -67,6 +67,11 @@ img {
     height: 8rem;
 }
 
+label {
+    font-size: .75rem;
+    letter-spacing: .15em;
+}
+
 .title {
     background: url(plants.jpg);
     background-size: cover;
@@ -74,7 +79,7 @@ img {
 }
 
 .titleback {
-    background-color: rgb(0, 0, 0, .3);
+    background-color: rgb(0, 0, 0, .4);
     color: white;
     display: flex;
     padding: 25px;
@@ -85,6 +90,20 @@ img {
 
 .formbody {
     background-color: white;
+}
+
+.formrow {
+    display: flex;
+}
+
+.formcol {
+    display: flex;
+    flex-direction: column;
+    padding: 10px 40px;
+}
+
+.formtitle {
+    padding: 10px 40px
 }
 
 .content {
