@@ -58,8 +58,18 @@ body {
     font-size: 24px;
 }
 
+h1 {
+    font-family: 'norsebold';
+    font-size: 6rem;
+}
+
+img {
+    height: 8rem;
+}
+
 .title {
-    background-color: darkgreen;
+    background: url(plants.jpg);
+    background-size: cover;
     width: 40%;
 }
 
@@ -67,6 +77,10 @@ body {
     background-color: rgb(0, 0, 0, .3);
     color: white;
     display: flex;
+    padding: 25px;
+    margin: 25% 0;
+    justify-content: center;
+    align-items: center;
 }
 
 .formbody {
